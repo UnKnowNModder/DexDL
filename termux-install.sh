@@ -14,7 +14,7 @@ pkg install -y libjpeg-turbo libpng || {
 }
 
 echo " Downloading DexDL..."
-wget -q https://github.com/UnKnowNModder/dexdl/raw/main/dexdl -O $PREFIX/bin/dexdl && \
+wget -q https://github.com/UnKnowNModder/dexdl/raw/master/dexdl -O $PREFIX/bin/dexdl && \
 chmod +x $PREFIX/bin/dexdl && \
 echo " Success! Run examples below:" || {
     echo " Download failed"
