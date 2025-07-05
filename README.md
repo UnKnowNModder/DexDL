@@ -3,7 +3,7 @@
 ## ▶️ One-Command Install (for lazy people's)
 ### ![Platform](https://img.shields.io/badge/OS-Termux-green)
 ```bash
-curl -sL https://raw.githubusercontent.com/yourname/dexdl/main/termux-install.sh | bash
+curl -sL https://raw.githubusercontent.com/UnKnowNModder/dexdl/master/termux-install.sh | bash
 ```
 
 ## Usage Examples
