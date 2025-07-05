@@ -1,12 +1,13 @@
-# 📜 DexDL - Termux Manga Downloader
+# 📜 DexDL - MangaDex CLI
 
-## ▶️ One-Command Install
+## ▶️ One-Command Install (for lazy people's)
 ```bash
 curl -sL https://raw.githubusercontent.com/yourname/dexdl/main/termux-install.sh | bash
 ```
 
-## 🔥 Usage Examples
-### By MangaDex ID:
+## Usage Examples
+### URL
+
 ```bash
 dexdl 3bb0279f-a01d-4aa4-93e4-305800f4b83e
 ```
