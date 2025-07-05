@@ -6,23 +6,20 @@ curl -sL https://raw.githubusercontent.com/yourname/dexdl/main/termux-install.sh
 ```
 
 ## Usage Examples
-### URL
-
-```bash
-dexdl 3bb0279f-a01d-4aa4-93e4-305800f4b83e
-```
-
-### By URL (Akatsuki no Yona):
+### URL:
+#### you can use the url from the mangadex.org, like this example below
 ```bash
 dexdl https://mangadex.org/title/3bb0279f-a01d-4aa4-93e4-305800f4b83e/akatsuki-no-yona
 ```
 
-### Download specific chapters (e.g. 112-115):
+### MANGA-ID:
+#### or you can simply put the manga-id from the url itself, both works.
+```bash
+dexdl 3bb0279f-a01d-4aa4-93e4-305800f4b83e
+```
+
+### 📚 SOMEWHAT USEFUL?:
+#### if you go from the method mentioned above, you'll be asked to input range of chapters anyways, but you can do it in one line aswell, e.g. chapter 112 to chapter 115 (4 chapters)
 ```bash
 dexdl 3bb0279f-a01d-4aa4-93e4-305800f4b83e 112 115
 ```
-
-## 📚 Sample Manga IDs
-- **Yona of the Dawn**: `3bb0279f-a01d-4aa4-93e4-305800f4b83e`
-- **One Piece**: `a1c7c817-4e59-43b7-9365-09675a149a6f`
-- **Jujutsu Kaisen**: `a96676e5-8ae2-425e-b549-7f15dd34a6d8`
