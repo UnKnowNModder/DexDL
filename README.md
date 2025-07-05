@@ -23,3 +23,6 @@ dexdl 3bb0279f-a01d-4aa4-93e4-305800f4b83e
 ```bash
 dexdl 3bb0279f-a01d-4aa4-93e4-305800f4b83e 112 115
 ```
+### 💢 Important Note:
+#### this currently supports english translated manga only, so any language other than this will result in an empty pdf of the specific chapter.
+#### it won't be able to download manga that are uploaded by other sources on mangadex.org, like (self-uploaded) and certain sources available on mangadex uploads.
