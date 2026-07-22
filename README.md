@@ -6,6 +6,16 @@
 curl -sL https://raw.githubusercontent.com/UnKnowNModder/dexdl/master/termux-install.sh | sed 's/\r$//' | bash
 ```
 
+### Windows (PowerShell + WSL)
+The current DexDL binary is Linux-native, so Windows uses WSL to run it. Install WSL first if needed, open PowerShell, and run:
+```powershell
+irm https://raw.githubusercontent.com/UnKnowNModder/DexDL/master/windows-install.ps1 | iex
+```
+The installer adds a `dexdl` command to your user PATH. Open a new terminal after installation. If you have multiple WSL distributions, pass one explicitly:
+```powershell
+& .\windows-install.ps1 -DistroName Ubuntu
+```
+
 ## Usage Examples
 ### URL:
 - you can use the url from the mangadex.org, like this example below
